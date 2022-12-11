@@ -1,0 +1,12 @@
+{
+  "name": "node-starter",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --experimental-specifier-resolution=node index.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  }
+}
