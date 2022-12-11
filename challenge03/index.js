@@ -40,7 +40,7 @@ const getZebraMax = (colorsExceptFirst => {
           zebraMax = calcMax(zebra,zebraMax)
           i = 0
         }
-        //Este sería el caso en que se repite el color actual y el último. Se corta la zebra calculada hasta entonces y se volvería a tener un color para empezar otra vez
+        //Este sería el caso en que se repite el color actual y el último. Se corta la zebra calculada hasta entonces y se volvería a tener un color para comenzar de nuevo
         else {
           primeraZebra = false
           zebra = []
